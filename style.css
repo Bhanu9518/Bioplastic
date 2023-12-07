@@ -1,0 +1,42 @@
+.hero{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(img/bg.jpg);
+    background-size: cover;
+    padding: 20px;
+}
+
+.vertical-center, .pre-footer {
+    position: relative;
+}
+
+.pre-footer{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(img/green-earth.jpg);
+    background-size: cover;
+    height: 250px;
+    color: white;
+}
+
+footer .container{
+    padding: 10px;
+}
+footer ul {
+    list-style: none;
+    margin-left: 0;
+    padding-left: 0;
+}
+
+footer li {
+    padding-left: 1em;
+    text-indent: -1em;
+}
+
+footer li:before {
+    content: ">>";
+    padding-right: 5px;
+}
+footer li a{
+    text-decoration: none;
+    color: grey;
+}
+footer li a:hover{
+    color: white;
+}
